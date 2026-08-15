@@ -1,0 +1,21 @@
+{
+  "categories": [
+    { "id": "produce",   "ru": "Овощи и фрукты",     "en": "Fruits & Vegetables", "icon": "🥦", "order": 1 },
+    { "id": "bakery",    "ru": "Хлеб и выпечка",     "en": "Bakery",              "icon": "🍞", "order": 2 },
+    { "id": "dairy",     "ru": "Молочные продукты",  "en": "Dairy & Eggs",        "icon": "🥛", "order": 3 },
+    { "id": "meat",      "ru": "Мясо и птица",       "en": "Meat & Poultry",      "icon": "🥩", "order": 4 },
+    { "id": "fish",      "ru": "Рыба и морепродукты","en": "Fish & Seafood",      "icon": "🐟", "order": 5 },
+    { "id": "deli",      "ru": "Колбасы и деликатесы","en": "Deli",               "icon": "🥓", "order": 6 },
+    { "id": "grocery",   "ru": "Бакалея",            "en": "Pantry",              "icon": "🌾", "order": 7 },
+    { "id": "canned",    "ru": "Консервы и соусы",   "en": "Canned & Sauces",     "icon": "🥫", "order": 8 },
+    { "id": "frozen",    "ru": "Заморозка",          "en": "Frozen",              "icon": "🧊", "order": 9 },
+    { "id": "snacks",    "ru": "Снеки и сладкое",    "en": "Snacks & Sweets",     "icon": "🍫", "order": 10 },
+    { "id": "drinks",    "ru": "Напитки",            "en": "Beverages",           "icon": "🥤", "order": 11 },
+    { "id": "alcohol",   "ru": "Алкоголь",           "en": "Alcohol",             "icon": "🍷", "order": 12 },
+    { "id": "baby",      "ru": "Детские товары",     "en": "Baby",                "icon": "🍼", "order": 13 },
+    { "id": "pets",      "ru": "Для животных",       "en": "Pets",                "icon": "🐾", "order": 14 },
+    { "id": "hygiene",   "ru": "Гигиена и красота",  "en": "Health & Beauty",     "icon": "🧴", "order": 15 },
+    { "id": "household", "ru": "Бытовая химия и дом","en": "Household",           "icon": "🧹", "order": 16 },
+    { "id": "other",     "ru": "Прочее",             "en": "Other",               "icon": "🛒", "order": 17 }
+  ]
+}

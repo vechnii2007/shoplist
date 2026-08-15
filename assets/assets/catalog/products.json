@@ -1,0 +1,1846 @@
+{
+  "products": [
+    {
+      "ru": "Яблоки",
+      "en": "Apples",
+      "cat": "produce",
+      "icon": "🍎"
+    },
+    {
+      "ru": "Бананы",
+      "en": "Bananas",
+      "cat": "produce",
+      "icon": "🍌"
+    },
+    {
+      "ru": "Апельсины",
+      "en": "Oranges",
+      "cat": "produce",
+      "icon": "🍊"
+    },
+    {
+      "ru": "Мандарины",
+      "en": "Tangerines",
+      "cat": "produce",
+      "icon": "🍊"
+    },
+    {
+      "ru": "Лимоны",
+      "en": "Lemons",
+      "cat": "produce",
+      "icon": "🍋"
+    },
+    {
+      "ru": "Виноград",
+      "en": "Grapes",
+      "cat": "produce",
+      "icon": "🍇"
+    },
+    {
+      "ru": "Груши",
+      "en": "Pears",
+      "cat": "produce",
+      "icon": "🍐"
+    },
+    {
+      "ru": "Персики",
+      "en": "Peaches",
+      "cat": "produce",
+      "icon": "🍑"
+    },
+    {
+      "ru": "Сливы",
+      "en": "Plums",
+      "cat": "produce",
+      "icon": "🍑"
+    },
+    {
+      "ru": "Клубника",
+      "en": "Strawberries",
+      "cat": "produce",
+      "icon": "🍓"
+    },
+    {
+      "ru": "Черника",
+      "en": "Blueberries",
+      "cat": "produce",
+      "icon": "🫐"
+    },
+    {
+      "ru": "Малина",
+      "en": "Raspberries",
+      "cat": "produce",
+      "icon": "🍓"
+    },
+    {
+      "ru": "Арбуз",
+      "en": "Watermelon",
+      "cat": "produce",
+      "icon": "🍉"
+    },
+    {
+      "ru": "Дыня",
+      "en": "Melon",
+      "cat": "produce",
+      "icon": "🍈"
+    },
+    {
+      "ru": "Киви",
+      "en": "Kiwi",
+      "cat": "produce",
+      "icon": "🥝"
+    },
+    {
+      "ru": "Ананас",
+      "en": "Pineapple",
+      "cat": "produce",
+      "icon": "🍍"
+    },
+    {
+      "ru": "Манго",
+      "en": "Mango",
+      "cat": "produce",
+      "icon": "🥭"
+    },
+    {
+      "ru": "Авокадо",
+      "en": "Avocado",
+      "cat": "produce",
+      "icon": "🥑"
+    },
+    {
+      "ru": "Гранат",
+      "en": "Pomegranate",
+      "cat": "produce",
+      "icon": "🍎"
+    },
+    {
+      "ru": "Хурма",
+      "en": "Persimmon",
+      "cat": "produce",
+      "icon": "🍊"
+    },
+    {
+      "ru": "Картофель",
+      "en": "Potatoes",
+      "cat": "produce",
+      "icon": "🥔"
+    },
+    {
+      "ru": "Морковь",
+      "en": "Carrots",
+      "cat": "produce",
+      "icon": "🥕"
+    },
+    {
+      "ru": "Лук репчатый",
+      "en": "Onions",
+      "cat": "produce",
+      "icon": "🧅"
+    },
+    {
+      "ru": "Лук зелёный",
+      "en": "Green onions",
+      "cat": "produce",
+      "icon": "🧅"
+    },
+    {
+      "ru": "Чеснок",
+      "en": "Garlic",
+      "cat": "produce",
+      "icon": "🧄"
+    },
+    {
+      "ru": "Помидоры",
+      "en": "Tomatoes",
+      "cat": "produce",
+      "icon": "🍅"
+    },
+    {
+      "ru": "Помидоры черри",
+      "en": "Cherry tomatoes",
+      "cat": "produce",
+      "icon": "🍅"
+    },
+    {
+      "ru": "Огурцы",
+      "en": "Cucumbers",
+      "cat": "produce",
+      "icon": "🥒"
+    },
+    {
+      "ru": "Перец болгарский",
+      "en": "Bell peppers",
+      "cat": "produce",
+      "icon": "🫑"
+    },
+    {
+      "ru": "Перец острый",
+      "en": "Chili peppers",
+      "cat": "produce",
+      "icon": "🌶️"
+    },
+    {
+      "ru": "Капуста белокочанная",
+      "en": "Cabbage",
+      "cat": "produce",
+      "icon": "🥬"
+    },
+    {
+      "ru": "Капуста цветная",
+      "en": "Cauliflower",
+      "cat": "produce",
+      "icon": "🥦"
+    },
+    {
+      "ru": "Брокколи",
+      "en": "Broccoli",
+      "cat": "produce",
+      "icon": "🥦"
+    },
+    {
+      "ru": "Кабачки",
+      "en": "Zucchini",
+      "cat": "produce",
+      "icon": "🥒"
+    },
+    {
+      "ru": "Баклажаны",
+      "en": "Eggplant",
+      "cat": "produce",
+      "icon": "🍆"
+    },
+    {
+      "ru": "Тыква",
+      "en": "Pumpkin",
+      "cat": "produce",
+      "icon": "🎃"
+    },
+    {
+      "ru": "Свёкла",
+      "en": "Beets",
+      "cat": "produce",
+      "icon": "🍠"
+    },
+    {
+      "ru": "Редис",
+      "en": "Radishes",
+      "cat": "produce",
+      "icon": "🌶️"
+    },
+    {
+      "ru": "Салат листовой",
+      "en": "Lettuce",
+      "cat": "produce",
+      "icon": "🥬"
+    },
+    {
+      "ru": "Шпинат",
+      "en": "Spinach",
+      "cat": "produce",
+      "icon": "🥬"
+    },
+    {
+      "ru": "Руккола",
+      "en": "Arugula",
+      "cat": "produce",
+      "icon": "🥬"
+    },
+    {
+      "ru": "Укроп",
+      "en": "Dill",
+      "cat": "produce",
+      "icon": "🌿"
+    },
+    {
+      "ru": "Петрушка",
+      "en": "Parsley",
+      "cat": "produce",
+      "icon": "🌿"
+    },
+    {
+      "ru": "Кинза",
+      "en": "Cilantro",
+      "cat": "produce",
+      "icon": "🌿"
+    },
+    {
+      "ru": "Базилик",
+      "en": "Basil",
+      "cat": "produce",
+      "icon": "🌿"
+    },
+    {
+      "ru": "Мята",
+      "en": "Mint",
+      "cat": "produce",
+      "icon": "🌿"
+    },
+    {
+      "ru": "Сельдерей",
+      "en": "Celery",
+      "cat": "produce",
+      "icon": "🥬"
+    },
+    {
+      "ru": "Имбирь",
+      "en": "Ginger",
+      "cat": "produce",
+      "icon": "🫚"
+    },
+    {
+      "ru": "Грибы шампиньоны",
+      "en": "Mushrooms",
+      "cat": "produce",
+      "icon": "🍄"
+    },
+    {
+      "ru": "Грибы вешенки",
+      "en": "Oyster mushrooms",
+      "cat": "produce",
+      "icon": "🍄"
+    },
+    {
+      "ru": "Хлеб белый",
+      "en": "White bread",
+      "cat": "bakery",
+      "icon": "🍞"
+    },
+    {
+      "ru": "Хлеб чёрный",
+      "en": "Rye bread",
+      "cat": "bakery",
+      "icon": "🍞"
+    },
+    {
+      "ru": "Хлеб цельнозерновой",
+      "en": "Whole grain bread",
+      "cat": "bakery",
+      "icon": "🍞"
+    },
+    {
+      "ru": "Батон",
+      "en": "Baguette",
+      "cat": "bakery",
+      "icon": "🥖"
+    },
+    {
+      "ru": "Лаваш",
+      "en": "Flatbread",
+      "cat": "bakery",
+      "icon": "🫓"
+    },
+    {
+      "ru": "Булочки",
+      "en": "Buns",
+      "cat": "bakery",
+      "icon": "🥐"
+    },
+    {
+      "ru": "Булочки для бургеров",
+      "en": "Burger buns",
+      "cat": "bakery",
+      "icon": "🍔"
+    },
+    {
+      "ru": "Круассаны",
+      "en": "Croissants",
+      "cat": "bakery",
+      "icon": "🥐"
+    },
+    {
+      "ru": "Сушки",
+      "en": "Bread rings",
+      "cat": "bakery",
+      "icon": "🥯"
+    },
+    {
+      "ru": "Пирожки",
+      "en": "Pies",
+      "cat": "bakery",
+      "icon": "🥟"
+    },
+    {
+      "ru": "Торт",
+      "en": "Cake",
+      "cat": "bakery",
+      "icon": "🎂"
+    },
+    {
+      "ru": "Сухари панировочные",
+      "en": "Breadcrumbs",
+      "cat": "bakery",
+      "icon": "🍞"
+    },
+    {
+      "ru": "Молоко",
+      "en": "Milk",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Кефир",
+      "en": "Kefir",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Ряженка",
+      "en": "Fermented baked milk",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Йогурт",
+      "en": "Yogurt",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Йогурт греческий",
+      "en": "Greek yogurt",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Творог",
+      "en": "Cottage cheese",
+      "cat": "dairy",
+      "icon": "🥣"
+    },
+    {
+      "ru": "Сырки глазированные",
+      "en": "Cheese snack bars",
+      "cat": "dairy",
+      "icon": "🍮"
+    },
+    {
+      "ru": "Сметана",
+      "en": "Sour cream",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Сливки",
+      "en": "Cream",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Масло сливочное",
+      "en": "Butter",
+      "cat": "dairy",
+      "icon": "🧈"
+    },
+    {
+      "ru": "Маргарин",
+      "en": "Margarine",
+      "cat": "dairy",
+      "icon": "🧈"
+    },
+    {
+      "ru": "Сыр твёрдый",
+      "en": "Hard cheese",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Сыр плавленый",
+      "en": "Processed cheese",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Сыр творожный",
+      "en": "Cream cheese",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Моцарелла",
+      "en": "Mozzarella",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Пармезан",
+      "en": "Parmesan",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Фета",
+      "en": "Feta",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Брынза",
+      "en": "Brined cheese",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Яйца",
+      "en": "Eggs",
+      "cat": "dairy",
+      "icon": "🥚"
+    },
+    {
+      "ru": "Молоко растительное",
+      "en": "Plant milk",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Маскарпоне",
+      "en": "Mascarpone",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Горгонзола",
+      "en": "Gorgonzola",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Сыр с плесенью",
+      "en": "Blue cheese",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Сыр тёртый",
+      "en": "Grated cheese",
+      "cat": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "ru": "Йогурт питьевой",
+      "en": "Drinkable yogurt",
+      "cat": "dairy",
+      "icon": "🥛"
+    },
+    {
+      "ru": "Курица целая",
+      "en": "Whole chicken",
+      "cat": "meat",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Куриное филе",
+      "en": "Chicken breast",
+      "cat": "meat",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Куриные бёдра",
+      "en": "Chicken thighs",
+      "cat": "meat",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Куриные крылья",
+      "en": "Chicken wings",
+      "cat": "meat",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Куриный фарш",
+      "en": "Ground chicken",
+      "cat": "meat",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Индейка",
+      "en": "Turkey",
+      "cat": "meat",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Говядина",
+      "en": "Beef",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Говяжий фарш",
+      "en": "Ground beef",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Свинина",
+      "en": "Pork",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Свиной фарш",
+      "en": "Ground pork",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Баранина",
+      "en": "Lamb",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Печень",
+      "en": "Liver",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Стейк",
+      "en": "Steak",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Шашлык (маринованный)",
+      "en": "Marinated kebab meat",
+      "cat": "meat",
+      "icon": "🍢"
+    },
+    {
+      "ru": "Кролик",
+      "en": "Rabbit",
+      "cat": "meat",
+      "icon": "🐇"
+    },
+    {
+      "ru": "Куриные окорочка",
+      "en": "Chicken leg quarters",
+      "cat": "meat",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Стейки индейки",
+      "en": "Turkey steaks",
+      "cat": "meat",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Свиные отбивные",
+      "en": "Pork chops",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Рёбра свиные",
+      "en": "Pork ribs",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Свиная шея",
+      "en": "Pork neck",
+      "cat": "meat",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Лосось",
+      "en": "Salmon",
+      "cat": "fish",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Форель",
+      "en": "Trout",
+      "cat": "fish",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Треска",
+      "en": "Cod",
+      "cat": "fish",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Минтай",
+      "en": "Pollock",
+      "cat": "fish",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Сельдь",
+      "en": "Herring",
+      "cat": "fish",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Скумбрия",
+      "en": "Mackerel",
+      "cat": "fish",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Тунец (стейк)",
+      "en": "Tuna steak",
+      "cat": "fish",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Креветки",
+      "en": "Shrimp",
+      "cat": "fish",
+      "icon": "🦐"
+    },
+    {
+      "ru": "Кальмары",
+      "en": "Squid",
+      "cat": "fish",
+      "icon": "🦑"
+    },
+    {
+      "ru": "Мидии",
+      "en": "Mussels",
+      "cat": "fish",
+      "icon": "🦪"
+    },
+    {
+      "ru": "Икра",
+      "en": "Caviar",
+      "cat": "fish",
+      "icon": "🍣"
+    },
+    {
+      "ru": "Крабовые палочки",
+      "en": "Crab sticks",
+      "cat": "fish",
+      "icon": "🦀"
+    },
+    {
+      "ru": "Колбаса варёная",
+      "en": "Bologna sausage",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Колбаса копчёная",
+      "en": "Smoked sausage",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Сосиски",
+      "en": "Hot dogs",
+      "cat": "deli",
+      "icon": "🌭"
+    },
+    {
+      "ru": "Сардельки",
+      "en": "Frankfurters",
+      "cat": "deli",
+      "icon": "🌭"
+    },
+    {
+      "ru": "Ветчина",
+      "en": "Ham",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Бекон",
+      "en": "Bacon",
+      "cat": "deli",
+      "icon": "🥓"
+    },
+    {
+      "ru": "Салями",
+      "en": "Salami",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Паштет",
+      "en": "Pâté",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Хамон",
+      "en": "Jamón",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Прошутто",
+      "en": "Prosciutto",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Фуэт",
+      "en": "Fuet",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Сальчичон",
+      "en": "Salchichón",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Чоризо",
+      "en": "Chorizo",
+      "cat": "deli",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Макароны",
+      "en": "Pasta",
+      "cat": "grocery",
+      "icon": "🍝"
+    },
+    {
+      "ru": "Спагетти",
+      "en": "Spaghetti",
+      "cat": "grocery",
+      "icon": "🍝"
+    },
+    {
+      "ru": "Лапша",
+      "en": "Noodles",
+      "cat": "grocery",
+      "icon": "🍜"
+    },
+    {
+      "ru": "Рис",
+      "en": "Rice",
+      "cat": "grocery",
+      "icon": "🍚"
+    },
+    {
+      "ru": "Гречка",
+      "en": "Buckwheat",
+      "cat": "grocery",
+      "icon": "🌾"
+    },
+    {
+      "ru": "Овсянка",
+      "en": "Oatmeal",
+      "cat": "grocery",
+      "icon": "🥣"
+    },
+    {
+      "ru": "Манка",
+      "en": "Semolina",
+      "cat": "grocery",
+      "icon": "🌾"
+    },
+    {
+      "ru": "Пшено",
+      "en": "Millet",
+      "cat": "grocery",
+      "icon": "🌾"
+    },
+    {
+      "ru": "Перловка",
+      "en": "Pearl barley",
+      "cat": "grocery",
+      "icon": "🌾"
+    },
+    {
+      "ru": "Булгур",
+      "en": "Bulgur",
+      "cat": "grocery",
+      "icon": "🌾"
+    },
+    {
+      "ru": "Киноа",
+      "en": "Quinoa",
+      "cat": "grocery",
+      "icon": "🌾"
+    },
+    {
+      "ru": "Кускус",
+      "en": "Couscous",
+      "cat": "grocery",
+      "icon": "🌾"
+    },
+    {
+      "ru": "Чечевица",
+      "en": "Lentils",
+      "cat": "grocery",
+      "icon": "🫘"
+    },
+    {
+      "ru": "Фасоль сухая",
+      "en": "Dried beans",
+      "cat": "grocery",
+      "icon": "🫘"
+    },
+    {
+      "ru": "Горох",
+      "en": "Split peas",
+      "cat": "grocery",
+      "icon": "🫛"
+    },
+    {
+      "ru": "Нут",
+      "en": "Chickpeas",
+      "cat": "grocery",
+      "icon": "🫘"
+    },
+    {
+      "ru": "Мука",
+      "en": "Flour",
+      "cat": "grocery",
+      "icon": "🌾"
+    },
+    {
+      "ru": "Сахар",
+      "en": "Sugar",
+      "cat": "grocery",
+      "icon": "🍬"
+    },
+    {
+      "ru": "Соль",
+      "en": "Salt",
+      "cat": "grocery",
+      "icon": "🧂"
+    },
+    {
+      "ru": "Перец чёрный",
+      "en": "Black pepper",
+      "cat": "grocery",
+      "icon": "🧂"
+    },
+    {
+      "ru": "Паприка",
+      "en": "Paprika",
+      "cat": "grocery",
+      "icon": "🌶️"
+    },
+    {
+      "ru": "Куркума",
+      "en": "Turmeric",
+      "cat": "grocery",
+      "icon": "🧂"
+    },
+    {
+      "ru": "Корица",
+      "en": "Cinnamon",
+      "cat": "grocery",
+      "icon": "🧂"
+    },
+    {
+      "ru": "Ванилин",
+      "en": "Vanilla",
+      "cat": "grocery",
+      "icon": "🧂"
+    },
+    {
+      "ru": "Лавровый лист",
+      "en": "Bay leaves",
+      "cat": "grocery",
+      "icon": "🌿"
+    },
+    {
+      "ru": "Приправа для курицы",
+      "en": "Chicken seasoning",
+      "cat": "grocery",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Масло подсолнечное",
+      "en": "Sunflower oil",
+      "cat": "grocery",
+      "icon": "🌻"
+    },
+    {
+      "ru": "Масло растительное",
+      "en": "Vegetable oil",
+      "cat": "grocery",
+      "icon": "🌻"
+    },
+    {
+      "ru": "Масло оливковое",
+      "en": "Olive oil",
+      "cat": "grocery",
+      "icon": "🫒"
+    },
+    {
+      "ru": "Уксус",
+      "en": "Vinegar",
+      "cat": "grocery",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Сода пищевая",
+      "en": "Baking soda",
+      "cat": "grocery",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Разрыхлитель",
+      "en": "Baking powder",
+      "cat": "grocery",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Дрожжи",
+      "en": "Yeast",
+      "cat": "grocery",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Желатин",
+      "en": "Gelatin",
+      "cat": "grocery",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Мёд",
+      "en": "Honey",
+      "cat": "grocery",
+      "icon": "🍯"
+    },
+    {
+      "ru": "Варенье",
+      "en": "Jam",
+      "cat": "grocery",
+      "icon": "🍯"
+    },
+    {
+      "ru": "Сгущёнка",
+      "en": "Condensed milk",
+      "cat": "grocery",
+      "icon": "🥫"
+    },
+    {
+      "ru": "Арахисовая паста",
+      "en": "Peanut butter",
+      "cat": "grocery",
+      "icon": "🥜"
+    },
+    {
+      "ru": "Хлопья кукурузные",
+      "en": "Cornflakes",
+      "cat": "grocery",
+      "icon": "🥣"
+    },
+    {
+      "ru": "Мюсли",
+      "en": "Muesli",
+      "cat": "grocery",
+      "icon": "🥣"
+    },
+    {
+      "ru": "Гранола",
+      "en": "Granola",
+      "cat": "grocery",
+      "icon": "🥣"
+    },
+    {
+      "ru": "Орехи грецкие",
+      "en": "Walnuts",
+      "cat": "grocery",
+      "icon": "🥜"
+    },
+    {
+      "ru": "Миндаль",
+      "en": "Almonds",
+      "cat": "grocery",
+      "icon": "🥜"
+    },
+    {
+      "ru": "Фундук",
+      "en": "Hazelnuts",
+      "cat": "grocery",
+      "icon": "🥜"
+    },
+    {
+      "ru": "Арахис",
+      "en": "Peanuts",
+      "cat": "grocery",
+      "icon": "🥜"
+    },
+    {
+      "ru": "Кешью",
+      "en": "Cashews",
+      "cat": "grocery",
+      "icon": "🥜"
+    },
+    {
+      "ru": "Изюм",
+      "en": "Raisins",
+      "cat": "grocery",
+      "icon": "🍇"
+    },
+    {
+      "ru": "Курага",
+      "en": "Dried apricots",
+      "cat": "grocery",
+      "icon": "🍑"
+    },
+    {
+      "ru": "Чернослив",
+      "en": "Prunes",
+      "cat": "grocery",
+      "icon": "🍑"
+    },
+    {
+      "ru": "Финики",
+      "en": "Dates",
+      "cat": "grocery",
+      "icon": "🌴"
+    },
+    {
+      "ru": "Семечки",
+      "en": "Sunflower seeds",
+      "cat": "grocery",
+      "icon": "🌻"
+    },
+    {
+      "ru": "Томатная паста",
+      "en": "Tomato paste",
+      "cat": "canned",
+      "icon": "🥫"
+    },
+    {
+      "ru": "Томаты в собственном соку",
+      "en": "Canned tomatoes",
+      "cat": "canned",
+      "icon": "🥫"
+    },
+    {
+      "ru": "Кетчуп",
+      "en": "Ketchup",
+      "cat": "canned",
+      "icon": "🍅"
+    },
+    {
+      "ru": "Майонез",
+      "en": "Mayonnaise",
+      "cat": "canned",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Горчица",
+      "en": "Mustard",
+      "cat": "canned",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Соевый соус",
+      "en": "Soy sauce",
+      "cat": "canned",
+      "icon": "🍶"
+    },
+    {
+      "ru": "Соус терияки",
+      "en": "Teriyaki sauce",
+      "cat": "canned",
+      "icon": "🍶"
+    },
+    {
+      "ru": "Аджика",
+      "en": "Adjika",
+      "cat": "canned",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Хрен",
+      "en": "Horseradish",
+      "cat": "canned",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Соус песто",
+      "en": "Pesto",
+      "cat": "canned",
+      "icon": "🫙"
+    },
+    {
+      "ru": "Тунец консервированный",
+      "en": "Canned tuna",
+      "cat": "canned",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Сайра консервированная",
+      "en": "Canned saury",
+      "cat": "canned",
+      "icon": "🥫"
+    },
+    {
+      "ru": "Шпроты",
+      "en": "Sprats",
+      "cat": "canned",
+      "icon": "🥫"
+    },
+    {
+      "ru": "Кукуруза консервированная",
+      "en": "Canned corn",
+      "cat": "canned",
+      "icon": "🌽"
+    },
+    {
+      "ru": "Горошек зелёный",
+      "en": "Canned peas",
+      "cat": "canned",
+      "icon": "🫛"
+    },
+    {
+      "ru": "Фасоль консервированная",
+      "en": "Canned beans",
+      "cat": "canned",
+      "icon": "🫘"
+    },
+    {
+      "ru": "Оливки",
+      "en": "Olives",
+      "cat": "canned",
+      "icon": "🫒"
+    },
+    {
+      "ru": "Маслины",
+      "en": "Black olives",
+      "cat": "canned",
+      "icon": "🫒"
+    },
+    {
+      "ru": "Огурцы маринованные",
+      "en": "Pickles",
+      "cat": "canned",
+      "icon": "🥒"
+    },
+    {
+      "ru": "Капуста квашеная",
+      "en": "Sauerkraut",
+      "cat": "canned",
+      "icon": "🥬"
+    },
+    {
+      "ru": "Грибы маринованные",
+      "en": "Pickled mushrooms",
+      "cat": "canned",
+      "icon": "🍄"
+    },
+    {
+      "ru": "Тушёнка",
+      "en": "Canned meat",
+      "cat": "canned",
+      "icon": "🥫"
+    },
+    {
+      "ru": "Пельмени",
+      "en": "Dumplings",
+      "cat": "frozen",
+      "icon": "🥟"
+    },
+    {
+      "ru": "Вареники",
+      "en": "Pierogi",
+      "cat": "frozen",
+      "icon": "🥟"
+    },
+    {
+      "ru": "Блины замороженные",
+      "en": "Frozen crepes",
+      "cat": "frozen",
+      "icon": "🥞"
+    },
+    {
+      "ru": "Пицца замороженная",
+      "en": "Frozen pizza",
+      "cat": "frozen",
+      "icon": "🍕"
+    },
+    {
+      "ru": "Овощи замороженные",
+      "en": "Frozen vegetables",
+      "cat": "frozen",
+      "icon": "🥦"
+    },
+    {
+      "ru": "Ягоды замороженные",
+      "en": "Frozen berries",
+      "cat": "frozen",
+      "icon": "🍓"
+    },
+    {
+      "ru": "Картофель фри",
+      "en": "French fries",
+      "cat": "frozen",
+      "icon": "🍟"
+    },
+    {
+      "ru": "Наггетсы",
+      "en": "Chicken nuggets",
+      "cat": "frozen",
+      "icon": "🍗"
+    },
+    {
+      "ru": "Котлеты замороженные",
+      "en": "Frozen cutlets",
+      "cat": "frozen",
+      "icon": "🍖"
+    },
+    {
+      "ru": "Рыбные палочки",
+      "en": "Fish sticks",
+      "cat": "frozen",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Рыба замороженная",
+      "en": "Frozen fish",
+      "cat": "frozen",
+      "icon": "🐟"
+    },
+    {
+      "ru": "Мороженое",
+      "en": "Ice cream",
+      "cat": "frozen",
+      "icon": "🍨"
+    },
+    {
+      "ru": "Тесто слоёное",
+      "en": "Puff pastry",
+      "cat": "frozen",
+      "icon": "🥐"
+    },
+    {
+      "ru": "Шоколад",
+      "en": "Chocolate",
+      "cat": "snacks",
+      "icon": "🍫"
+    },
+    {
+      "ru": "Конфеты",
+      "en": "Candy",
+      "cat": "snacks",
+      "icon": "🍬"
+    },
+    {
+      "ru": "Печенье",
+      "en": "Cookies",
+      "cat": "snacks",
+      "icon": "🥩"
+    },
+    {
+      "ru": "Вафли",
+      "en": "Wafers",
+      "cat": "snacks",
+      "icon": "🧇"
+    },
+    {
+      "ru": "Пряники",
+      "en": "Gingerbread",
+      "cat": "snacks",
+      "icon": "🍪"
+    },
+    {
+      "ru": "Зефир",
+      "en": "Marshmallow",
+      "cat": "snacks",
+      "icon": "🍬"
+    },
+    {
+      "ru": "Пастила",
+      "en": "Fruit pastille",
+      "cat": "snacks",
+      "icon": "🍬"
+    },
+    {
+      "ru": "Халва",
+      "en": "Halva",
+      "cat": "snacks",
+      "icon": "🍬"
+    },
+    {
+      "ru": "Мармелад",
+      "en": "Gummies",
+      "cat": "snacks",
+      "icon": "🍬"
+    },
+    {
+      "ru": "Чипсы",
+      "en": "Chips",
+      "cat": "snacks",
+      "icon": "🥔"
+    },
+    {
+      "ru": "Сухарики",
+      "en": "Croutons",
+      "cat": "snacks",
+      "icon": "🍞"
+    },
+    {
+      "ru": "Попкорн",
+      "en": "Popcorn",
+      "cat": "snacks",
+      "icon": "🍿"
+    },
+    {
+      "ru": "Крекеры",
+      "en": "Crackers",
+      "cat": "snacks",
+      "icon": "🍪"
+    },
+    {
+      "ru": "Батончики мюсли",
+      "en": "Granola bars",
+      "cat": "snacks",
+      "icon": "🥖"
+    },
+    {
+      "ru": "Жвачка",
+      "en": "Chewing gum",
+      "cat": "snacks",
+      "icon": "🍬"
+    },
+    {
+      "ru": "Вода питьевая",
+      "en": "Drinking water",
+      "cat": "drinks",
+      "icon": "💧"
+    },
+    {
+      "ru": "Вода газированная",
+      "en": "Sparkling water",
+      "cat": "drinks",
+      "icon": "💧"
+    },
+    {
+      "ru": "Сок апельсиновый",
+      "en": "Orange juice",
+      "cat": "drinks",
+      "icon": "🍊"
+    },
+    {
+      "ru": "Сок яблочный",
+      "en": "Apple juice",
+      "cat": "drinks",
+      "icon": "🧃"
+    },
+    {
+      "ru": "Сок томатный",
+      "en": "Tomato juice",
+      "cat": "drinks",
+      "icon": "🧃"
+    },
+    {
+      "ru": "Морс",
+      "en": "Berry drink",
+      "cat": "drinks",
+      "icon": "🧃"
+    },
+    {
+      "ru": "Компот",
+      "en": "Fruit compote",
+      "cat": "drinks",
+      "icon": "🧃"
+    },
+    {
+      "ru": "Лимонад",
+      "en": "Lemonade",
+      "cat": "drinks",
+      "icon": "🍋"
+    },
+    {
+      "ru": "Кола",
+      "en": "Cola",
+      "cat": "drinks",
+      "icon": "🥤"
+    },
+    {
+      "ru": "Квас",
+      "en": "Kvass",
+      "cat": "drinks",
+      "icon": "🥤"
+    },
+    {
+      "ru": "Чай чёрный",
+      "en": "Black tea",
+      "cat": "drinks",
+      "icon": "🍵"
+    },
+    {
+      "ru": "Чай зелёный",
+      "en": "Green tea",
+      "cat": "drinks",
+      "icon": "🍵"
+    },
+    {
+      "ru": "Чай травяной",
+      "en": "Herbal tea",
+      "cat": "drinks",
+      "icon": "🍵"
+    },
+    {
+      "ru": "Кофе молотый",
+      "en": "Ground coffee",
+      "cat": "drinks",
+      "icon": "☕"
+    },
+    {
+      "ru": "Кофе в зёрнах",
+      "en": "Coffee beans",
+      "cat": "drinks",
+      "icon": "☕"
+    },
+    {
+      "ru": "Кофе растворимый",
+      "en": "Instant coffee",
+      "cat": "drinks",
+      "icon": "☕"
+    },
+    {
+      "ru": "Какао",
+      "en": "Cocoa",
+      "cat": "drinks",
+      "icon": "☕"
+    },
+    {
+      "ru": "Энергетик",
+      "en": "Energy drink",
+      "cat": "drinks",
+      "icon": "⚡"
+    },
+    {
+      "ru": "Пиво",
+      "en": "Beer",
+      "cat": "alcohol",
+      "icon": "🍺"
+    },
+    {
+      "ru": "Вино красное",
+      "en": "Red wine",
+      "cat": "alcohol",
+      "icon": "🍷"
+    },
+    {
+      "ru": "Вино белое",
+      "en": "White wine",
+      "cat": "alcohol",
+      "icon": "🍷"
+    },
+    {
+      "ru": "Шампанское",
+      "en": "Sparkling wine",
+      "cat": "alcohol",
+      "icon": "🍾"
+    },
+    {
+      "ru": "Водка",
+      "en": "Vodka",
+      "cat": "alcohol",
+      "icon": "🥃"
+    },
+    {
+      "ru": "Виски",
+      "en": "Whiskey",
+      "cat": "alcohol",
+      "icon": "🥃"
+    },
+    {
+      "ru": "Коньяк",
+      "en": "Cognac",
+      "cat": "alcohol",
+      "icon": "🥃"
+    },
+    {
+      "ru": "Сидр",
+      "en": "Cider",
+      "cat": "alcohol",
+      "icon": "🍺"
+    },
+    {
+      "ru": "Подгузники",
+      "en": "Diapers",
+      "cat": "baby",
+      "icon": "🧷"
+    },
+    {
+      "ru": "Детское питание",
+      "en": "Baby food",
+      "cat": "baby",
+      "icon": "🍼"
+    },
+    {
+      "ru": "Детская смесь",
+      "en": "Baby formula",
+      "cat": "baby",
+      "icon": "🍼"
+    },
+    {
+      "ru": "Детское пюре",
+      "en": "Baby puree",
+      "cat": "baby",
+      "icon": "🍼"
+    },
+    {
+      "ru": "Влажные салфетки детские",
+      "en": "Baby wipes",
+      "cat": "baby",
+      "icon": "🧻"
+    },
+    {
+      "ru": "Детская каша",
+      "en": "Baby cereal",
+      "cat": "baby",
+      "icon": "🍼"
+    },
+    {
+      "ru": "Корм для кошек",
+      "en": "Cat food",
+      "cat": "pets",
+      "icon": "🐱"
+    },
+    {
+      "ru": "Корм для собак",
+      "en": "Dog food",
+      "cat": "pets",
+      "icon": "🐶"
+    },
+    {
+      "ru": "Наполнитель для лотка",
+      "en": "Cat litter",
+      "cat": "pets",
+      "icon": "🐾"
+    },
+    {
+      "ru": "Лакомства для животных",
+      "en": "Pet treats",
+      "cat": "pets",
+      "icon": "🐾"
+    },
+    {
+      "ru": "Зубная паста",
+      "en": "Toothpaste",
+      "cat": "hygiene",
+      "icon": "🪥"
+    },
+    {
+      "ru": "Зубная щётка",
+      "en": "Toothbrush",
+      "cat": "hygiene",
+      "icon": "🪥"
+    },
+    {
+      "ru": "Шампунь",
+      "en": "Shampoo",
+      "cat": "hygiene",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Бальзам для волос",
+      "en": "Conditioner",
+      "cat": "hygiene",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Гель для душа",
+      "en": "Shower gel",
+      "cat": "hygiene",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Мыло",
+      "en": "Soap",
+      "cat": "hygiene",
+      "icon": "🧼"
+    },
+    {
+      "ru": "Дезодорант",
+      "en": "Deodorant",
+      "cat": "hygiene",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Бритвенные станки",
+      "en": "Razors",
+      "cat": "hygiene",
+      "icon": "🪒"
+    },
+    {
+      "ru": "Пена для бритья",
+      "en": "Shaving foam",
+      "cat": "hygiene",
+      "icon": "🪒"
+    },
+    {
+      "ru": "Туалетная бумага",
+      "en": "Toilet paper",
+      "cat": "hygiene",
+      "icon": "🧻"
+    },
+    {
+      "ru": "Бумажные полотенца",
+      "en": "Paper towels",
+      "cat": "hygiene",
+      "icon": "🧻"
+    },
+    {
+      "ru": "Салфетки",
+      "en": "Napkins",
+      "cat": "hygiene",
+      "icon": "🧻"
+    },
+    {
+      "ru": "Ватные диски",
+      "en": "Cotton pads",
+      "cat": "hygiene",
+      "icon": "🧻"
+    },
+    {
+      "ru": "Ватные палочки",
+      "en": "Cotton swabs",
+      "cat": "hygiene",
+      "icon": "🧻"
+    },
+    {
+      "ru": "Прокладки",
+      "en": "Sanitary pads",
+      "cat": "hygiene",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Тампоны",
+      "en": "Tampons",
+      "cat": "hygiene",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Крем для рук",
+      "en": "Hand cream",
+      "cat": "hygiene",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Пластыри",
+      "en": "Band-aids",
+      "cat": "hygiene",
+      "icon": "🩹"
+    },
+    {
+      "ru": "Средство для мытья посуды",
+      "en": "Dish soap",
+      "cat": "household",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Губки для посуды",
+      "en": "Sponges",
+      "cat": "household",
+      "icon": "🧽"
+    },
+    {
+      "ru": "Стиральный порошок",
+      "en": "Laundry detergent",
+      "cat": "household",
+      "icon": "🧺"
+    },
+    {
+      "ru": "Кондиционер для белья",
+      "en": "Fabric softener",
+      "cat": "household",
+      "icon": "🧺"
+    },
+    {
+      "ru": "Отбеливатель",
+      "en": "Bleach",
+      "cat": "household",
+      "icon": "🧺"
+    },
+    {
+      "ru": "Чистящее средство",
+      "en": "Cleaning spray",
+      "cat": "household",
+      "icon": "🧴"
+    },
+    {
+      "ru": "Средство для стёкол",
+      "en": "Glass cleaner",
+      "cat": "household",
+      "icon": "🪟"
+    },
+    {
+      "ru": "Средство для пола",
+      "en": "Floor cleaner",
+      "cat": "household",
+      "icon": "🧹"
+    },
+    {
+      "ru": "Освежитель воздуха",
+      "en": "Air freshener",
+      "cat": "household",
+      "icon": "🌸"
+    },
+    {
+      "ru": "Мешки для мусора",
+      "en": "Trash bags",
+      "cat": "household",
+      "icon": "🗑️"
+    },
+    {
+      "ru": "Фольга",
+      "en": "Aluminum foil",
+      "cat": "household",
+      "icon": "📦"
+    },
+    {
+      "ru": "Пищевая плёнка",
+      "en": "Plastic wrap",
+      "cat": "household",
+      "icon": "📦"
+    },
+    {
+      "ru": "Пакеты для заморозки",
+      "en": "Freezer bags",
+      "cat": "household",
+      "icon": "📦"
+    },
+    {
+      "ru": "Пергамент для выпечки",
+      "en": "Parchment paper",
+      "cat": "household",
+      "icon": "📦"
+    },
+    {
+      "ru": "Батарейки",
+      "en": "Batteries",
+      "cat": "household",
+      "icon": "🔋"
+    },
+    {
+      "ru": "Лампочки",
+      "en": "Light bulbs",
+      "cat": "household",
+      "icon": "💡"
+    },
+    {
+      "ru": "Спички",
+      "en": "Matches",
+      "cat": "household",
+      "icon": "🔥"
+    },
+    {
+      "ru": "Таблетки для посудомойки",
+      "en": "Dishwasher tablets",
+      "cat": "household",
+      "icon": "🧼"
+    },
+    {
+      "ru": "Салфетки для уборки",
+      "en": "Cleaning wipes",
+      "cat": "household",
+      "icon": "🧻"
+    },
+    {
+      "ru": "Перчатки резиновые",
+      "en": "Rubber gloves",
+      "cat": "household",
+      "icon": "🧤"
+    }
+  ]
+}
