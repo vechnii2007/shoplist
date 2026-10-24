@@ -1,24 +1,13 @@
-// Shoplist: сервис-воркер для Web Push (отдельный scope, чтобы не мешать
-// флаттеровскому воркеру офлайн-кэша).
-self.addEventListener('push', (event) => {
-  let data = { title: 'Shoplist', body: 'Обновление в общем списке' };
-  try {
-    if (event.data) data = event.data.json();
-  } catch (_) {}
-  event.waitUntil(
-    self.registration.showNotification(data.title, {
-      body: data.body,
-      icon: '../icons/Icon-192.png',
-      badge: '../icons/Icon-192.png',
-    })
-  );
-});
-
-self.addEventListener('notificationclick', (event) => {
-  event.notification.close();
-  event.waitUntil(
-    clients.matchAll({ type: 'window', includeUncontrolled: true }).then(
-      (list) => (list.length ? list[0].focus() : clients.openWindow('../'))
-    )
-  );
+// Web-пуши убраны из приложения. У тех, кто успел их включить, этот воркер
+// ещё зарегистрирован: при очередной проверке обновления он удаляет себя
+// вместе с подпиской.
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    try {
+      const sub = await self.registration.pushManager.getSubscription();
+      if (sub) await sub.unsubscribe();
+    } catch (_) {}
+    await self.registration.unregister();
+  })());
 });
