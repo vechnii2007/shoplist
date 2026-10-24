@@ -1,0 +1,29 @@
+# «Пульс» для Supabase: бесплатный проект ставится на паузу после ~7 дней
+# без активности — тогда в приложении перестают работать шаринг и
+# синхронизация. Дважды в день делаем лёгкий запрос к базе.
+# Если запрос не прошёл (проект уже на паузе) — запуск падает, и GitHub
+# присылает письмо: пора нажать Restore project в дашборде Supabase.
+name: Supabase pulse
+
+on:
+  schedule:
+    - cron: '17 5,17 * * *'
+  workflow_dispatch:
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query the database
+        env:
+          SUPABASE_URL: https://yzoxmgtkryywweafvldk.supabase.co
+          # Публичный ключ, тот же, что в приложении: доступ ограничен RLS.
+          SUPABASE_KEY: sb_publishable_LuM7rh_strSTjGYzFGGQXg_tYPjiLJD
+        run: |
+          code=$(curl -s -o response.txt -w '%{http_code}' \
+            --retry 3 --retry-delay 20 --retry-all-errors \
+            "$SUPABASE_URL/rest/v1/lists?select=id&limit=1" \
+            -H "apikey: $SUPABASE_KEY") || true
+          echo "HTTP $code"
+          head -c 200 response.txt 2>/dev/null || true
+          test "$code" = "200"
