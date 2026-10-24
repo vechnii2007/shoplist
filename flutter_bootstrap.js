@@ -38,10 +38,35 @@ addEventListener("message", eventListener);
 if (!window._flutter) {
   window._flutter = {};
 }
-_flutter.buildConfig = {"engineRevision":"5f77625673248ee5846fbcaf5d3e1a3878386fd7","wasmHashes":{"wimp.wasm":"7474f6074c42c4be503c9059c9b5058e468a68a8917ac6c3607f0da4922f7e5a","webparagraph/canvaskit.wasm":"7a61c4ad71781875a80bbfc5ee6e49686dd190d629e0fe986d3ecc05ada58856","skwasm.wasm":"a957befea55cf597eeebcf3286f1b88f463f3ad8bfc13e55aa8f5d34cd2ade4d","chromium/canvaskit.wasm":"ba4024133403777f41c709b9e76e9f4bdb76c73d33adba8645527a59d815d824","canvaskit.wasm":"2898c0795cf4a694e86ee3445c7414c2503fbcb46967154762f50ebde988da04","skwasm_heavy.wasm":"781a14fc7e9cd387ee6df4a056f62af7e940c60cc42ce04571cc2e810042c588","sqlite3.wasm":"13d3f11d05b39ba0618a7115fb41640a5d48b6300f5d3f325f554b42bd6688a4"},"builds":[{"compileTarget":"dart2wasm","renderer":"skwasm","mainWasmPath":"main.dart.wasm","jsSupportRuntimePath":"main.dart.mjs"},{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
+_flutter.buildConfig = {"engineRevision":"5f77625673248ee5846fbcaf5d3e1a3878386fd7","wasmHashes":{"wimp.wasm":"7474f6074c42c4be503c9059c9b5058e468a68a8917ac6c3607f0da4922f7e5a","webparagraph/canvaskit.wasm":"7a61c4ad71781875a80bbfc5ee6e49686dd190d629e0fe986d3ecc05ada58856","skwasm.wasm":"a957befea55cf597eeebcf3286f1b88f463f3ad8bfc13e55aa8f5d34cd2ade4d","chromium/canvaskit.wasm":"ba4024133403777f41c709b9e76e9f4bdb76c73d33adba8645527a59d815d824","canvaskit.wasm":"2898c0795cf4a694e86ee3445c7414c2503fbcb46967154762f50ebde988da04","skwasm_heavy.wasm":"781a14fc7e9cd387ee6df4a056f62af7e940c60cc42ce04571cc2e810042c588","sqlite3.wasm":"efd308be92a34f3aa15f289a37f213b0230fd80888a1364326ee29579d892d37","main.dart.wasm":"871cb328661e94e82ad6c796eba001130a624ce969e378209ef1b64fc94a4b28"},"builds":[{"compileTarget":"dart2wasm","renderer":"skwasm","mainWasmPath":"main.dart.wasm","jsSupportRuntimePath":"main.dart.mjs"},{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}],"useLocalCanvasKit":true};
 
-_flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "3832918137" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
-  }
-});
+
+// Устаревший flutter_service_worker.js не регистрируем: он удаляет сам себя
+// и перезагружает страницу — вместе с ним слетал бы наш sw.js (у одной
+// области может быть только одна регистрация).
+_flutter.loader.load();
+
+// Свой service worker: офлайн-запуск и мгновенный повторный старт.
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('sw.js', { updateViaCache: 'none' })
+    .catch(() => {});
+
+  // После первого кадра отдаём ему список файлов, которыми реально
+  // пользуется этот браузер (wasm или js-сборка, нужные шрифты), —
+  // при первом визите страница ещё не под его контролем и сама в кеш
+  // не попадёт.
+  window.addEventListener('flutter-first-frame', () => {
+    setTimeout(async () => {
+      try {
+        const urls = performance
+          .getEntriesByType('resource')
+          .map((r) => r.name)
+          .filter((u) => u.startsWith(location.origin) ||
+                         u.startsWith('https://fonts.gstatic.com/'));
+        const reg = await navigator.serviceWorker.ready;
+        reg.active?.postMessage({ type: 'cache', urls });
+      } catch (_) {}
+    }, 4000);
+  });
+}

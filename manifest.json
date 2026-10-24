@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F8F8F4",
-    "theme_color": "#3E8E68",
+    "theme_color": "#F8F8F4",
     "description": "Список покупок: каталоги Mercadona и Lidl с ценами, общие списки, история походов. Работает офлайн.",
     "orientation": "any",
     "prefer_related_applications": false,
