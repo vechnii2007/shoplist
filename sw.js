@@ -5,7 +5,7 @@
 // живёт в одном кеше и отдаётся оттуда: новая страница никогда не смешается
 // со старым wasm. Новая версия скачивается в фоне и включается со следующего
 // запуска. Запросы к Supabase и прочим API идут мимо — их кеш не трогает.
-const VERSION = 'b6d9e60f5108';
+const VERSION = '624068df2fe9';
 const CACHE = `shoplist-${VERSION}`;
 const SCOPE = self.registration.scope;
 const SHELL = ['./', 'flutter_bootstrap.js', 'manifest.json', 'icons/Icon-192.png'];
